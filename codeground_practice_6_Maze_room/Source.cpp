@@ -42,11 +42,23 @@ int main(int argc, char** argv)
 		int N, num;
 		scanf("%d", &N);
 		scanf("%d", &num);
-		vector<char> v(num);
+		vector<int> nv(N*N);
+
+		vector<char> cv(num);
 		Answer = 1;
+		for (int i = 0; i < N; i++)//0,0 0,1 1,0 0,2 1,1 2,0
+			//0,N,1,2N,2,
+		{
+
+			for (int j = 0; j < N; j++)
+			{
+
+			}
+
+		}
 		for (int i = 0; i < num; i++)
 		{
-			scanf("%d", &v[i]);
+			scanf("%d", &cv[i]);
 		}
 
 
